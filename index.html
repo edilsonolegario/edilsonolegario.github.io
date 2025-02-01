@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta tags essenciais para SEO e responsividade -->
+  <meta charset="UTF-8"> <!-- Define o conjunto de caracteres da página -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Responsividade: adapta a página para diferentes tamanhos de tela -->
+  <meta name="description"
+    content="Personal website of Edilson Olegario, a passionate software developer and engineer.">
+  <meta name="author" content="Edilson Olegario">
+
+  <title>My Personal Website</title> <!-- Título da página exibido na aba do navegador -->
+
+  <!-- Link para o arquivo CSS (estilos principais) -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Links para fontes e ícones externos -->
+  <!-- Font Awesome: para ícones de redes sociais e outros -->
+  <link rel="stylesheet" href="https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css">
+
+  <!-- Material Icons: Biblioteca de ícones do Google -->
+  <link rel="stylesheet" id="material-icons" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- Boxicons: Biblioteca de ícones com estilo flexível -->
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+
+  <!-- Script para o FontAwesome (precisa para ícones funcionar corretamente) -->
+  <script src="https://kit.fontawesome.com/9b032ae970.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- Cabeçalho (header) com navegação e botão de troca de tema -->
+  <header>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li> <!-- Link para a seção "Home" -->
+          <li><a href="#about">About Me</a></li> <!-- Link para a seção "About" -->
+          <li><a href="#skills">Skills</a></li> <!-- Link para a seção "Skills" -->
+          <li><a href="#projects">Projects</a></li> <!-- Link para a seção "Projects" -->
+          <li><a href="#contact">Contact</a></li> <!-- Link para a seção "Contact" -->
+        </ul>
+      </nav>
+      <!-- Botão para alternar entre tema claro e escuro -->
+      <button id="theme-toggle"> 🌙</button>
+    </div>
+  </header>
+
+  <!-- Seção "Home" -->
+  <section id="Home" class="section">
+    <div class="container">
+      <!-- Mensagem de saudação -->
+      <small>Hi, <br></small>
+
+      <!-- Título com nome e profissão -->
+      <h1 class="text-6xl md:text-8xl lg:text-7xl font-bold tracking-tighter leading-tight md:pr-8">
+        Edilson Olegario
+      </h1>
+      <p>Software Engineer | Architecture Engineer</p>
+    </div>
+  </section>
+
+  <!-- Seção "About" (Sobre mim) -->
+  <section id="about" class="section">
+    <div class="container">
+      <!-- Foto e descrição sobre o desenvolvedor -->
+      <div class="about-content">
+        <div class="my-photo">
+          <img
+            src="https://camo.githubusercontent.com/40cc95a8ba3ed7daa64255ff9347bf8f23c87fb538a27387df1a6546224f2907/68747470733a2f2f692e696d6775722e636f6d2f717758475365642e706e67"
+            alt="Edilson Olegario" width="300" height="300">
+        </div>
+        <div class="description">
+          <h2>About Me</h2>
+          <p>
+            I'm Edilson Olegario, a passionate software developer with experience in building modern, responsive
+            websites.
+            I love coding, solving problems, and continuously learning new technologies. I specialize in System
+            Development and I am always working to enhance my skills and become even better at what I do.
+            Whether it's Frontend, Backend, DevOps, CI/CD, or more recently Multicloud & AI, I enjoy exploring a little
+            bit of everything.
+            <br>
+            That's why I created this website to share my passion for programming and technology.
+          </p>
+        </div>
+      </div>
+
+      <!-- Redes sociais -->
+      <h3>Social Media</h3>
+      <div class="socials">
+        <a target="_blank" href="https://www.linkedin.com/in/edilsonolegario/">
+          <i class="icon fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+        <a target="_blank" href="https://github.com/edilsonolegario">
+          <i class="icon fab fa-github" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section py-20 bg-gray-900">
+    <div class="container mx-auto text-white">
+      <!-- Título da seção Skills -->
+      <h2 class="text-4xl font-extrabold mb-12">Skills</h2>
+
+      <!-- Descrição -->
+      <p class="text-lg mb-12 text-center">In a constant process of learning, I have experience with various
+        technologies, tools, and frameworks. Here are some of these technologies:</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div class="flex items-center justify-between skill-card">
+          <div class="flex-1">
+            <h3 class="text-2xl font-semibold">Frontend Technologies</h3>
+            <p class="mt-2 text-lg">I'm a passionate frontend developer with skills in HTML, CSS, and JavaScript,
+              dedicated to building modern, responsive, and user-friendly web applications.
+              <li><strong>HTML:</strong> Crafting well-structured and semantic markup for accessible web experiences.
+              </li>
+              <li><strong>CSS:</strong> Styling beautiful, responsive designs using modern techniques like Flexbox,
+                Grid, and animations.</li>
+              <li><strong>JavaScript:</strong> Enhancing interactivity with dynamic content, event handling, and API
+                integration.</li>
+            </p>
+          </div>
+          <div class="flex-shrink-0">
+            <img
+              src="https://user-images.githubusercontent.com/30186107/29488525-f55a69d0-84da-11e7-8a39-5476f663b5eb.png"
+              alt="Frontend" class="w-16 h-16">
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+          <div class="flex items-center justify-between skill-card">
+            <div class="flex-1">
+              <h3 class="text-2xl font-semibold">Frameworks & Libraries</h3>
+              <p class="mt-2 text-lg">I specialize in modern frontend frameworks to build fast, scalable, and
+                interactive web applications.
+                <li><strong>React:</strong> Creating dynamic and reusable UI components for seamless user experiences.
+                </li>
+                <li><strong>Vue.js:</strong> Developing lightweight and flexible applications with reactive data
+                  binding.</li>
+                <li><strong>Angular:</strong> Building powerful, structured, and scalable single-page applications
+                  (SPAs).</li>
+                <li><strong>Bootstrap:</strong> Designing responsive and mobile-friendly interfaces efficiently.</li>
+              </p>
+            </div>
+            <div class="flex-shrink-0">
+              <img
+                src="https://media.licdn.com/dms/image/v2/C5612AQHdFSYdbC5hKg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1531080442656?e=1743638400&v=beta&t=gmteFxDLD-ZaXNaZJSBAEYrhcVeUFEnImqQ4oo0TxhE"
+                alt="Frameworks " class="w-16 h-16">
+            </div>
+          </div>
+
+          <div class="flex items-center justify-between skill-card">
+            <div class="flex-1">
+              <h3 class="text-2xl font-semibold">Backend Technologies</h3>
+              <p class="mt-2 text-lg">I have experience with backend development, ensuring scalable, secure, and
+                efficient applications.
+                <li><strong>Node.js:</strong> Building fast, event-driven, and scalable server-side applications.</li>
+                <li><strong>Express.js:</strong> Simplifying backend development with a minimal and flexible Node.js
+                  framework.</li>
+                <li><strong>Python & Django:</strong> Developing secure and high-performance web applications with a
+                  clean architecture.</li>
+                <li><strong>Java & Spring Boot:</strong> Creating robust, enterprise-grade applications with powerful
+                  backend services.</li>
+                <li><strong>Databases (SQL & NoSQL):</strong> Managing data efficiently using MySQL, PostgreSQL, and
+                  MongoDB.</li>
+                <li><strong>REST & GraphQL APIs:</strong> Designing and integrating APIs for seamless communication
+                  between frontend and backend.</li>
+              </p>
+            </div>
+            <div class="flex-shrink-0">
+              <img
+                src="https://cdn.prod.website-files.com/678a08d17a6b88bae4e2d8ee/67931a07d312ac82c81b89fc_66b0929089fba41bd4d247d9_Languages-and-Technologies-in-Backend-Development.jpeg"
+                alt="Backend" class="w-16 h-16">
+            </div>
+          </div>
+
+          <div class="flex items-center justify-between skill-card">
+            <div class="flex-1">
+              <h3 class="text-2xl font-semibold">MultiCloud Infrastructure and Technologies</h3>
+              <p class="mt-2 text-lg">I have experience working with cloud-based solutions, ensuring scalability,
+                security, and high availability.
+                <li><strong>AWS (Amazon Web Services):</strong> Deploying and managing cloud applications using EC2, S3,
+                  Lambda, and RDS.</li>
+                <li><strong>Microsoft Azure:</strong> Implementing cloud services with App Services, Functions, and
+                  Azure SQL.</li>
+                <li><strong>Google Cloud Platform (GCP):</strong> Leveraging cloud computing with Compute Engine,
+                  Firestore, and Cloud Functions.</li>
+                <li><strong>Docker & Kubernetes:</strong> Containerizing and orchestrating applications for efficient
+                  cloud deployments.</li>
+                <li><strong>CI/CD Pipelines:</strong> Automating deployments with GitHub Actions, Jenkins, and GitLab
+                  CI/CD.</li>
+                <li><strong>Serverless Computing:</strong> Building cost-efficient and scalable applications with AWS
+                  Lambda, Azure Functions, and Firebase.</li>
+              </p>
+            </div>
+            <div class="flex-shrink-0">
+              <img src="https://www.outcomex.com.au/wp-content/uploads/2021/10/multicloud-diagram-01-1200x879.png"
+                alt="MultiCloud" class="w-16 h-16">
+            </div>
+          </div>
+
+          <div class="flex items-center justify-between skill-card">
+            <div class="flex-1">
+              <h3 class="text-2xl font-semibold">Version Control (Git & GitHub)</h3>
+              <p class="mt-2 text-lg">I have experience managing and collaborating on projects using version control
+                systems, ensuring code integrity and smooth collaboration.
+                <li><strong>Git:</strong> Managing code versions, branches, and commits with a distributed version
+                  control system.</li>
+                <li><strong>GitHub:</strong> Hosting repositories, managing pull requests, and collaborating with teams.
+                </li>
+                <li><strong>GitLab:</strong> Integrating version control with CI/CD pipelines for seamless development
+                  workflows.</li>
+              </p>
+            </div>
+            <div class="flex-shrink-0">
+              <img
+                src="https://user-images.githubusercontent.com/74005813/192868021-8ef99482-7f55-4670-97ff-8e7fcb4162cb.png"
+                alt="Git" class="w-16 h-16">
+            </div>
+          </div>
+
+          <div class="flex items-center justify-between skill-card">
+            <div class="flex-1">
+              <h3 class="text-2xl font-semibold">Design Responsivo</h3>
+              <p class="mt-2 text-lg">Creation of responsive layouts that adapt perfectly to any device.</p>
+            </div>
+            <div class="flex-shrink-0">
+              <img src="https://designimador.com.br/wp-content/uploads/2017/03/publico-alvo.png" alt="Design Responsivo"
+                alt="Design Responsivo" class="w-16 h-16">
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section py-20 bg-gray-900">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="projects-container">
+          <div class="project-item">
+            <h3>3D Social Media Icon Hover Effects</h3>
+            <p>Interactive 3D hover effects for social media icons using HTML, CSS, and JavaScript. A creative way to
+              make your social media icons more engaging!</p>
+            <div class="project-links">
+              <a href="https://edilsonolegario.github.io/3D-Social-Media-Icon-Hover-Effects/" target="_blank"
+                class="btn">Live Demo</a>
+              <a href="https://github.com/edilsonolegario/3D-Social-Media-Icon-Hover-Effects" target="_blank"
+                class="btn">View on GitHub</a>
+              <div class="flex-shrink-0">
+                <img src="Img/3D-Social-Media-Icon-Hover-Effects.png" alt="Git" class="w-16 h-16">
+              </div>
+            </div>
+          </div>
+          <div class="project-item">
+            <h3>Glassmorphism</h3>
+            <p>Glassmorphism design style implemented for modern UI elements with frosted glass effects.</p>
+            <div class="project-links">
+              <a href="https://edilsonolegario.github.io/Glassmorphism-/" target="_blank" class="btn">Live Demo</a>
+              <a href="https://github.com/edilsonolegario/Glassmorphism-" target="_blank" class="btn">View on GitHub</a>
+              <div class="flex-shrink-0">
+                <img src="Img/Glassmorphism-.png" alt="Git" class="w-16 h-16">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Add more project items here -->
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section py-20 bg-gray-900">
+    <div class="container">
+      <!-- Título da seção Contact -->
+      <h2>Contact Me</h2>
+
+      <!-- Formulário de contato -->
+      <form id="contact-form">
+        <!-- Campo de nome -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <!-- Campo de e-mail -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <!-- Campo de mensagem -->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <!-- Botão para enviar o formulário -->
+        <button type="submit">Send</button>
+      </form>
+
+      <!-- Exibe status do envio do formulário -->
+      <p id="form-status"></p>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="container">
+      <!-- Texto do rodapé com copyright -->
+      <p>&copy; 2025 My Personal Website. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+  <!-- Scripts JS -->
+  <script src="script.js"></script>
+  <!-- Link para arquivo JavaScript que pode conter lógica para o toggle de tema, animações, etc. -->
+  <script>
+    // Aguardando o carregamento completo da página
+    document.addEventListener("DOMContentLoaded", function () {
+      // Selecionar todas as habilidades
+      const skills = document.querySelectorAll('.skill-card');
+
+      // Função para detectar quando o item entra na tela
+      function checkVisibility() {
+        const windowHeight = window.innerHeight;
+
+        skills.forEach(skill => {
+          const skillPosition = skill.getBoundingClientRect().top;
+
+          // Se a habilidade estiver visível na tela, adicionar classe para animação
+          if (skillPosition < windowHeight - 100) {
+            skill.classList.add('animate__fadeInUp'); // Usando animação do animate.css
+          }
+        });
+      }
+
+      // Verifica visibilidade ao rolar a página
+      window.addEventListener('scroll', checkVisibility);
+
+      // Chama a função para ativar as animações assim que a página for carregada
+      checkVisibility();
+    });
+  </script>
+</body>
+
+</html>

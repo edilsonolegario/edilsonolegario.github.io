@@ -1,0 +1,344 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background-color: #333;
+  color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #77aaff 3px solid;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode header {
+  background: #222;
+}
+
+header h1 {
+  float: left;
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#theme-toggle {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Sections */
+.section {
+  padding: 20px 0;
+  background: #fff;
+  margin-bottom: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode .section {
+  background: #1b1b1b;
+  color: #f4f4f4;
+}
+
+.section h2 {
+  color: #333;
+  border-bottom: 2px solid #77aaff;
+  padding-bottom: 10px;
+  transition: color 0.3s;
+}
+
+body.dark-mode .section h2 {
+  color: #f4f4f4;
+}
+
+/* About Me*/
+#about .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.my-photo {
+  flex: 0 0 300px; /* 300px é o tamanho fixo da foto */
+  margin-right: 20px;
+}
+
+.description {
+  flex: 1;
+}
+
+h3 {
+  margin-top: 20px;
+  text-align: left; /* Garante que o título das redes sociais fique alinhado à esquerda */
+}
+
+.socials {
+  display: flex;
+  gap: 20px; /* Espaço entre os ícones */
+  align-items: center;
+  margin-top: 10px;
+  padding: 10;
+  margin: 10;
+  bottom: 55px;
+  width: 10px;
+  height:50x;
+  font-size: 30px; 
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .my-photo {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .socials {
+    justify-content: center; /* Garante que os ícones fiquem centrados em telas menores */
+    
+  }
+}
+
+/* Skill */
+
+#skills {
+  padding-top: 1rem; /* Adicionar um pouco de espaçamento no topo */
+  padding-bottom: 1rem; /* Adicionar um pouco de espaçamento na parte inferior */
+}
+
+.skill-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Colocar o texto à esquerda e a imagem à direita */
+  gap: 20px;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para dar destaque */
+  transition: transform 0.3s ease; /* Efeito suave no hover */
+}
+
+.skill-card:hover {
+  transform: translateY(-5px); /* Elevar o card ao passar o mouse */
+}
+
+.skill-card img {
+  max-width: 8rem; /* Tamanho fixo para o ícone */
+  height: auto;
+}
+
+/* Para garantir responsividade, o layout muda conforme o tamanho da tela */
+@media (max-width: 768px) {
+  .skill-card {
+    flex-direction: column; /* Quando a tela for pequena, empilhar o texto e a imagem */
+    align-items: center;
+    text-align: center;
+  }
+
+  .skill-card img {
+    margin-top: 1rem; /* Adicionar espaço acima da imagem */
+  }
+}
+
+/* Projects Section */
+.projects {
+  padding-top: 1rem; /* Adicionar um pouco de espaçamento no topo */
+  padding-bottom: 1rem; /* Adicionar um pouco de espaçamento na parte inferior */
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.projects-container {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap; /* Allows projects to wrap if the screen is small */
+  gap: 20px; /* Space between projects */
+}
+
+.project-item {
+  flex: 1 1 calc(50% - 20px); /* Ensures two projects fit side by side with some space between them */
+  box-sizing: border-box;
+  background-color: #fff; /* Example background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-item:hover {
+  transform: translateY(-10px);
+}
+
+.project-item h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.project-item p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.project-links .btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.project-links .btn:hover {
+  background-color: #0056b3;
+}
+
+.project-item img {
+  max-width: 20rem; /* Tamanho fixo para o ícone */
+  height: auto;
+  margin: 20px;
+  border-radius: 10px;
+  width: 100%; /* Adjusts image to fit the container */  
+}
+
+.project-item a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007BFF;
+}
+
+@media (max-width: 768px) {
+  .project-item {
+      flex: 1 1 100%; /* Stacks the projects on top of each other on smaller screens */
+  }
+}
+
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input, form textarea {
+  margin-bottom: px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode form input, body.dark-mode form textarea {
+  background-color: #555;
+  color: #f4f4f4;
+  border-color: #777;
+}
+
+form button {
+  padding: 10px;
+  background: #77aaff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background: #5599ff;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+body.dark-mode footer {
+  background: #222;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.section {
+  animation: fadeIn 1s ease-in-out;
+}
