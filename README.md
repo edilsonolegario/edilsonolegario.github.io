@@ -1,49 +1,68 @@
-# 👨‍💻 Edilson Olegário – Portfólio Profissional
+# 👋 Olá! Eu sou Edílson Olegário
 
-Bem-vindo ao meu portfólio digital!  
-Aqui você encontrará informações sobre minha trajetória profissional, habilidades técnicas e projetos desenvolvidos.  
-Este repositório serve como uma vitrine do meu trabalho e como um ponto de contato para oportunidades profissionais.
+🎯 **Engenheiro de Software | Arquiteto de Soluções | Full Stack Developer**
+
+📍 Campinas, SP – Brasil  
+🌐 [edilsonolegario.github.io](https://edilsonolegario.github.io/)  
+📧 [LinkedIn](https://br.linkedin.com/in/edilsonolegario) | [Instagram](https://www.instagram.com/edilson.olegario)
 
 ---
 
-## 🧠 Sobre Mim
+## 🧑‍💻 Sobre Mim
 
-Sou um profissional apaixonado por tecnologia e desenvolvimento de software.  
-Com experiência em diversas tecnologias, busco sempre aprimorar minhas habilidades e contribuir para projetos inovadores.
+Sou um desenvolvedor de software apaixonado por criar soluções modernas e responsivas. Tenho experiência em diversas tecnologias e estou sempre em busca de novos desafios que me permitam crescer profissionalmente. Atualmente, atuo como **Technical Product Manager na Stellantis**, contribuindo para o desenvolvimento de softwares de propulsão.
 
 ---
 
 ## 🛠️ Habilidades Técnicas
 
-- **Linguagens de Programação:** JavaScript, Python, Java
-- **Frameworks:** React, Node.js, Django
-- **Banco de Dados:** MySQL, MongoDB
-- **Ferramentas:** Git, Docker, Jenkins
-- **Metodologias Ágeis:** Scrum, Kanban
+### Linguagens de Programação
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat)
+![Java](https://img.shields.io/badge/-Java-007396?logo=java&logoColor=white&style=flat)
+![C#](https://img.shields.io/badge/-C%23-239120?logo=c-sharp&logoColor=white&style=flat)
+
+### Frameworks & Bibliotecas
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&style=flat)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=flat)
+![Django](https://img.shields.io/badge/-Django-092E20?logo=django&logoColor=white&style=flat)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?logo=bootstrap&logoColor=white&style=flat)
+
+### Banco de Dados
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white&style=flat)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white&style=flat)
+
+### Ferramentas & DevOps
+![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=flat)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat)
+![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?logo=jenkins&logoColor=white&style=flat)
 
 ---
 
-## 📂 Projetos Destacados
+## 🚀 Projetos em Destaque
 
-### [3D Social Media Icon Hover Effects](https://edilsonolegario.github.io/3d-social-media-icon-hover-effects/)
-- **Descrição:** Efeitos interativos 3D para ícones de redes sociais utilizando HTML, CSS e JavaScript.
-- **Tecnologias:** HTML, CSS, JavaScript
-- **Link:** [https://edilsonolegario.github.io/3d-social-media-icon-hover-effects/](https://edilsonolegario.github.io/3d-social-media-icon-hover-effects/)
-- **Repositório:** [https://github.com/edilsonolegario/3d-social-media-icon-hover-effects](https://github.com/edilsonolegario/3d-social-media-icon-hover-effects)
+### 🎨 [3D Social Media Icon Hover Effects](https://edilsonolegario.github.io/3D-Social-Media-Icon-Hover-Effects/)
+Criação de efeitos de ícones de mídia social em 3D com interações de hover, utilizando HTML, CSS e JavaScript.
 
-### [Glassmorphism UI Components](https://edilsonolegario.github.io/glassmorphism-ui-components/)
-- **Descrição:** Estilo de design Glassmorphism implementado para elementos modernos de UI com efeitos de vidro fosco.
-- **Tecnologias:** HTML, CSS
-- **Link:** [https://edilsonolegario.github.io/glassmorphism-ui-components/](https://edilsonolegario.github.io/glassmorphism-ui-components/)
-- **Repositório:** [https://github.com/edilsonolegario/glassmorphism-ui-components](https://github.com/edilsonolegario/glassmorphism-ui-components)
+### 📊 [Dashboard de Análise de Dados](https://github.com/edilsonolegario/data-analysis-dashboard)
+Desenvolvimento de um dashboard interativo para visualização de dados, implementado com React e Chart.js.
+
+### 🛒 [E-commerce Frontend](https://github.com/edilsonolegario/ecommerce-frontend)
+Interface de usuário para uma plataforma de comércio eletrônico, construída com Vue.js e integrando APIs RESTful.
 
 ---
 
-## 📞 Contato
+## 📈 Estatísticas do GitHub
 
-- **E-mail:** [edilson_olegario@hotmail.com](mailto:edilson_olegario@hotmail.com)
-- **LinkedIn:** [https://www.linkedin.com/in/edilsonolegario](https://www.linkedin.com/in/edilsonolegario)
-- **GitHub:** [https://github.com/edilsonolegario](https://github.com/edilsonolegario)
+![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=edilsonolegario&show_icons=true&theme=radical)
+
+![Linguagens Mais Usadas](https://github-readme-stats.vercel.app/api/top-langs/?username=edilsonolegario&layout=compact&theme=radical)
+
+---
+
+## 📬 Entre em Contato
+
+Estou sempre aberto a novas oportunidades e colaborações. Sinta-se à vontade para entrar em contato comigo através das redes sociais ou pelo meu [site pessoal](https://edilsonolegario.github.io/).
 
 ---
 
